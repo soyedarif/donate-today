@@ -7,7 +7,7 @@
 }
 
 header {
-    background-image: linear-gradient(rgba(34, 34, 34, 0), rgb(0, 0, 0)), url(/images/donation14.webp);
+    background-image: linear-gradient(rgba(34, 34, 34, 0), rgb(0, 0, 0)), url(/images/donation8.jpg);
     height: 500px;
     position: relative;
     margin-bottom: 80px;
@@ -168,12 +168,109 @@ main {
 
 .hero-section {
     display: flex;
+    gap: 83px;
+    margin-bottom: 100px;
+    align-items: center;
 }
 
 .hero-section img {
     object-fit: cover;
-    width: 280px;
-    min-height: 280px;
+    min-width: 456px;
+    min-height: 456px;
 
     width: 50%;
+}
+
+.story {
+    text-align: left;
+}
+
+.story-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.story-info {
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 30px;
+}
+
+.updates {
+    width: 691px;
+    margin: 0 auto;
+}
+
+.updates h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+
+}
+
+.updates p {
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.email {
+    background: #FFF4D6;
+
+    padding: 76px 188px;
+    width: 809px;
+    margin: 0 auto 130px;
+
+
+}
+
+.email input[type="email"] {
+    width: 50%;
+    font-weight: 500;
+    font-size: 16px;
+    height: 48px;
+    border: none;
+    color: #504747;
+    background: #D9D9D9;
+    padding: 14px 17px;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+.email input[type="email"]:focus {
+    outline: none;
+}
+
+.btn-email {
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    padding: 14px 48px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 43px 580px;
+    background: #0B0D17;
+
+}
+
+footer h2 {
+    font-family: 'Lobster', cursive;
+
+    font-size: 36px;
+    color: #FF5959;
+    margin-bottom: 24px;
+}
+
+footer p {
+    color: #D9DBE1;
+    font-size: 14px;
+
 }
