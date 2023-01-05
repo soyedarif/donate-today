@@ -8,7 +8,7 @@
 
 header {
     background-image: linear-gradient(rgba(34, 34, 34, 0), rgb(0, 0, 0)), url(/images/child.jpg);
-    background-size:cover;
+    background-size: cover;
     height: 500px;
     position: relative;
     margin-bottom: 80px;
@@ -229,6 +229,7 @@ main {
 }
 
 .email input[type="email"] {
+    margin-right: -6px;
     width: 50%;
     font-weight: 500;
     font-size: 16px;
@@ -252,7 +253,7 @@ main {
     border: none;
     color: white;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 footer {
